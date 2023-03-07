@@ -17,7 +17,7 @@ docker pull toluclassics/transformers_notebook
 
 Clone the repository and build the docker image
 ```
-Docker build -t $tag .
+docker build --rm --force-rm -t hk/ai-notebook:hub-3.1.1 .
 ```
 
 # Jupyter Docker Stacks - Community Stack version
